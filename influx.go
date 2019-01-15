@@ -1,6 +1,6 @@
 package main
 
-import "github.com/influxdb/influxdb/client"
+import "github.com/influxdata/influxdb1-client"
 import (
 	"fmt"
 	"log"

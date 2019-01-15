@@ -1,2 +1,2 @@
 .idea/
-foo.db
+sql/*.db

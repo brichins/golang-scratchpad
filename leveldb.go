@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "code.google.com/p/leveldb-go/leveldb"
+import "github.com/golang/leveldb"
 
 func main() {
 	fmt.Println("Hello, world")

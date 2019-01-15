@@ -7,14 +7,10 @@ import "fmt"
 */
 import "C"
 
-func Random() int {
+func random() int {
 	return int(C.random())
 }
 
-func Seed(i int) {
-	C.srandom(C.uint(i))
-}
-
 func main() {
-	fmt.Println(Random())
+	fmt.Println(random())
 }
